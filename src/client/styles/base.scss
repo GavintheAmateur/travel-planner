@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+    * {
+        margin: 3rem auto;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    header {
+        grid-area: header;
+    }
+    main {
+        grid-area: main;
+        max-height: 100%;
+    }
+    footer {
+        grid-area: footer;
+    }
+}

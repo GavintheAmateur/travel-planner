@@ -1,0 +1,39 @@
+@import 'mixin';
+main {
+
+    @include flex-center(column);
+    
+    .trips {
+        display: none;
+        .trip {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+                "thumbnail summary"
+                "action info";
+
+            .trip-thumbnail {
+                grid-area: "thumbnail";
+            }
+            .trip-action {
+                grid-area: "action";
+            }
+            .trip-title {
+                grid-area: "summary";
+            }
+            .trip-info {
+                grid-area: "info";
+            }
+        }
+    }
+    .add {
+        .add-item {
+            input {
+                width:80%;
+            }
+        }
+        
+    }
+
+}
