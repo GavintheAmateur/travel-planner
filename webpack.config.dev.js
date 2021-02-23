@@ -13,6 +13,7 @@ module.exports = merge(commonConfig, {
     stats: 'verbose',
     module: {
         rules: [
+            
             {
                 test: /\.scss$/,
                 exclude: /node_modules/,

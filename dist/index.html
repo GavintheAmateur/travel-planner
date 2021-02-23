@@ -65,12 +65,19 @@
             </div>
         </section>
         <section class="add" id="add-trip">
-            <div class="add-item">
-                <span>My trip to: </span><input placeholder="Enter Location"/>
-            </div>            
-            <div class="add-item">
-                <span>Departing: </span><input placeholder="MM/DD/YYYY"/>
-            </div>
+            <form action="" method="get" class="add-form" onsubmit="return Client.handleForm(event)">
+                <div class="add-form-destination">
+                    <label for="destination">My trip to:</label>
+                    <input  type="text" name="destination" id="destination" placeholder="Enter Destination:" requied/>
+                </div>            
+                <div class="add-form-date">
+                    <label for="departing-date">Departing: </label>
+                    <input type="date" name="departing-date" id="departing-date" placeholder="MM/DD/YYYY" requied/>
+                </div>
+                <div class="add-form-submit">
+                    <input type="submit"  value="Check"/>
+                </div>
+            </form>
                         
         </section>
     </main>

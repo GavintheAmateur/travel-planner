@@ -368,7 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "main {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column; }\n  main .trips {\n    display: none; }\n    main .trips .trip {\n      display: grid;\n      grid-template-rows: repeat(2, 1fr);\n      grid-template-columns: repeat(2, 1fr);\n      grid-template-areas: \"thumbnail summary\" \"action info\"; }\n      main .trips .trip .trip-thumbnail {\n        grid-area: \"thumbnail\"; }\n      main .trips .trip .trip-action {\n        grid-area: \"action\"; }\n      main .trips .trip .trip-title {\n        grid-area: \"summary\"; }\n      main .trips .trip .trip-info {\n        grid-area: \"info\"; }\n  main .add .add-item input {\n    width: 80%; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/main.scss","webpack://./src/client/styles/mixin.scss"],"names":[],"mappings":"AACA;ECAI,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,sBDD2B,EAAA;EAF/B;IAKQ,aAAa,EAAA;IALrB;MAOY,aAAa;MACb,kCAAkC;MAClC,qCAAqC;MACrC,sDAEiB,EAAA;MAZ7B;QAegB,sBAAsB,EAAA;MAftC;QAkBgB,mBAAmB,EAAA;MAlBnC;QAqBgB,oBAAoB,EAAA;MArBpC;QAwBgB,iBAAiB,EAAA;EAxBjC;IA+BgB,UAAS,EAAA","sourcesContent":["@import 'mixin';\nmain {\n\n    @include flex-center(column);\n    \n    .trips {\n        display: none;\n        .trip {\n            display: grid;\n            grid-template-rows: repeat(2, 1fr);\n            grid-template-columns: repeat(2, 1fr);\n            grid-template-areas:\n                \"thumbnail summary\"\n                \"action info\";\n\n            .trip-thumbnail {\n                grid-area: \"thumbnail\";\n            }\n            .trip-action {\n                grid-area: \"action\";\n            }\n            .trip-title {\n                grid-area: \"summary\";\n            }\n            .trip-info {\n                grid-area: \"info\";\n            }\n        }\n    }\n    .add {\n        .add-item {\n            input {\n                width:80%;\n            }\n        }\n        \n    }\n\n}\n","@mixin flex-center($direction) {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-direction: $direction;\n  }"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "main {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column; }\n  main .trips {\n    display: none; }\n    main .trips .trip {\n      display: grid;\n      grid-template-rows: repeat(2, 1fr);\n      grid-template-columns: repeat(2, 1fr);\n      grid-template-areas: \"thumbnail summary\" \"action info\"; }\n      main .trips .trip .trip-thumbnail {\n        grid-area: \"thumbnail\"; }\n      main .trips .trip .trip-action {\n        grid-area: \"action\"; }\n      main .trips .trip .trip-title {\n        grid-area: \"summary\"; }\n      main .trips .trip .trip-info {\n        grid-area: \"info\"; }\n  main .add .add-form input {\n    width: 80%; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/main.scss","webpack://./src/client/styles/mixin.scss"],"names":[],"mappings":"AACA;ECAI,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,sBDD2B,EAAA;EAF/B;IAKQ,aAAa,EAAA;IALrB;MAOY,aAAa;MACb,kCAAkC;MAClC,qCAAqC;MACrC,sDAEiB,EAAA;MAZ7B;QAegB,sBAAsB,EAAA;MAftC;QAkBgB,mBAAmB,EAAA;MAlBnC;QAqBgB,oBAAoB,EAAA;MArBpC;QAwBgB,iBAAiB,EAAA;EAxBjC;IA+BgB,UAAS,EAAA","sourcesContent":["@import 'mixin';\nmain {\n\n    @include flex-center(column);\n    \n    .trips {\n        display: none;\n        .trip {\n            display: grid;\n            grid-template-rows: repeat(2, 1fr);\n            grid-template-columns: repeat(2, 1fr);\n            grid-template-areas:\n                \"thumbnail summary\"\n                \"action info\";\n\n            .trip-thumbnail {\n                grid-area: \"thumbnail\";\n            }\n            .trip-action {\n                grid-area: \"action\";\n            }\n            .trip-title {\n                grid-area: \"summary\";\n            }\n            .trip-info {\n                grid-area: \"info\";\n            }\n        }\n    }\n    .add {\n        .add-form {\n            input {\n                width:80%;\n            }\n        }\n        \n    }\n\n}\n","@mixin flex-center($direction) {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-direction: $direction;\n  }"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -10549,19 +10549,66 @@ module.exports.formatError = function(err) {
 /*!*****************************!*\
   !*** ./src/client/index.js ***!
   \*****************************/
-/*! no exports provided */
+/*! exports provided: handleForm */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _styles_base_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/base.scss */ "./src/client/styles/base.scss");
-/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/header.scss */ "./src/client/styles/header.scss");
-/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/main.scss */ "./src/client/styles/main.scss");
-/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/footer.scss */ "./src/client/styles/footer.scss");
-/* harmony import */ var _styles_resets_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/resets.scss */ "./src/client/styles/resets.scss");
+/* harmony import */ var _js_formHandler__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/formHandler */ "./src/client/js/formHandler.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleForm", function() { return _js_formHandler__WEBPACK_IMPORTED_MODULE_0__["handleForm"]; });
+
+/* harmony import */ var _styles_base_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/base.scss */ "./src/client/styles/base.scss");
+/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/header.scss */ "./src/client/styles/header.scss");
+/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/main.scss */ "./src/client/styles/main.scss");
+/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/footer.scss */ "./src/client/styles/footer.scss");
+/* harmony import */ var _styles_resets_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/resets.scss */ "./src/client/styles/resets.scss");
 
 
 
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/client/js/formHandler.js":
+/*!**************************************!*\
+  !*** ./src/client/js/formHandler.js ***!
+  \**************************************/
+/*! exports provided: handleForm */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleForm", function() { return handleForm; });
+const showLoading = () => {
+  console.log("submitting form to backend...");
+};
+
+const renderResult = data => {
+  console.log(JSON.stringify(data));
+};
+
+const handleForm = e => {
+  e.preventDefault(); //get input 
+
+  let destination = document.getElementById("destination").value;
+  let date = document.getElementById("departing-date").value; //validate
+
+  if (!destination) {
+    alert("Please input a destination!");
+    return;
+  }
+
+  if (!date) {
+    alert("Please input a date!");
+    return;
+  }
+
+  showLoading();
+  fetch(`http://localhost:8081/trip/check?destination=${destination}&date=${date}`).then(res => res.json()).then(data => renderResult(data));
+};
 
 
 
