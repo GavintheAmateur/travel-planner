@@ -1,0 +1,109 @@
+.edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    * {
+        margin-bottom: 1rem;
+        line-height: 50%;
+    }
+    .trip-thumbnail {
+        img {
+            width: 100%;
+        }
+    }
+
+    .trip-title {
+        color: #351a0e;
+        font: normal large impact;
+    }
+
+    .trip-actions {
+        color: #bc9158;
+        font: 100 normal Verdana, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        button {
+            width: fit-content;
+        }
+    }
+
+    .trip-info {
+        color: #6f4e37;
+        text-align: left;
+        .trip-info-weather {
+            display: block;
+            img {
+                display: inline;
+                vertical-align: middle;
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+
+    .trip-notes {
+        display: flex;
+        flex-direction: column;
+        textarea {
+            height: 3rem;
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .edit {
+        width: 80;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 50vh 50vh;
+        grid-template-columns: 50vw 50vw;
+        grid-template-areas:
+            "thumbnail summary"
+            "notes notes";
+
+        .trip-thumbnail {
+            grid-area: thumbnail;
+            margin: 2rem;
+            height: 80%;
+            width: 80%;
+            margin: 2rem 0;
+        }
+        .trip-summary {
+            margin: 2rem;
+            grid-area: summary;
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            align-items: left;
+            text-align: left;
+            .trip-title {
+                margin: 1vw;
+                font-size: 3vw;
+            }
+            .trip-actions {
+                margin: 1vw;
+                font-size: 2vw;
+            }
+            .trip-info {
+                margin: 1vw;
+                font-size: 2vw;
+                height: fit-content;
+                .trip-info-weather p {
+                    padding-left: 0;
+                    margin-left: 0;
+                }
+            }
+        }
+        .trip-notes {
+            grid-area: notes;
+            textarea {
+                height: 6vw;
+                font-size: 2vw;
+            }
+        }
+    }
+}

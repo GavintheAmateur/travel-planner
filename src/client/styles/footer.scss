@@ -1,10 +1,13 @@
 footer {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     button {
         display: inline-block;
         width:40vw;
         margin:auto;
-
+        color: #bc9158;
+        font: 100 normal Verdana, sans-serif;
     }
 }

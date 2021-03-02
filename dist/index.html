@@ -9,82 +9,16 @@
 </head>
 
 <body>
-
     <header>
         <h1>Travel Planner</h1>
     </header>
-    <main>
-        <section  class="trips" id="trips">
-            <div class="trip">
-
-
-                <div class="trip-thumbnail">
-                    <img src="media/sample.jpg"></img>
-                </div>
-                <div class="trip-title">
-                    <p>My Trip to: Paris, France</p>
-                    <p>Departing:02/12/2020</p>
-                </div>
-                <div class="trip-actions">
-                    <button>edit trip</button>
-                    <button>remove trip</button>
-                </div>
-                <div class="trip-info">
-                    <div class="trip-info-weather">
-                        <p>Paris, France is 220 days away</p>
-                        <p>Typical weather for then is:</p>
-                        <p>High -24, Low: -35</p>
-                        <p>Mostly cloudy thoughout the day</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="trip">
-
-
-                <div class="trip-thumbnail">
-                    <img src="media/sample.jpg"></img>
-                </div>
-                <div class="trip-title">
-                    <p>My Trip to: Tokyo, Japan</p>
-                    <p>Departing:02/12/2021</p>
-                </div>
-                <div class="trip-actions">
-                    <button>edit trip</button>
-                    <button>remove trip</button>
-                </div>
-                <div class="trip-info">
-                    <div class="trip-info-weather">
-                        <p>Tokyo, Japan is 212 days away</p>
-                        <p>Typical weather for then is:</p>
-                        <p>High -24, Low: -35</p>
-                        <p>Mostly cloudy thoughout the day</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section class="add" id="add-trip">
-            <form action="" method="get" class="add-form" onsubmit="return Client.handleForm(event)">
-                <div class="add-form-destination">
-                    <label for="destination">My trip to:</label>
-                    <input  type="text" name="destination" id="destination" placeholder="Enter Destination:" requied/>
-                </div>            
-                <div class="add-form-date">
-                    <label for="departing-date">Departing: </label>
-                    <input type="date" name="departing-date" id="departing-date" placeholder="MM/DD/YYYY" requied/>
-                </div>
-                <div class="add-form-submit">
-                    <input type="submit"  value="Check"/>
-                </div>
-            </form>
-                        
-        </section>
+    <main id="container">
     </main>
-    <footer class="navbar">
-        <button>Add</button>
-        <button>History</button>
+    <footer>
+        <button id='btn-new-trip' onclick='return Client.renderAddTripView()'>New Trip</button>
+        <button id='btn-trip-history' onclick='return Client.renderTripListView()'>My Trips</button>
     </footer>
+    <div class="modal"></div>
 <script type="text/javascript" src="main.js"></script></body>
 
 </html>

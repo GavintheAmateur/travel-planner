@@ -275,6 +275,31 @@ ansiHTML.reset()
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/add-trip.scss":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/add-trip.scss ***!
+  \**********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".add .add-form * {\n  display: flex;\n  flex-direction: column;\n  margin: 1rem auto; }\n\n.add .add-form input {\n  width: 80%;\n  height: 4em;\n  border: 2px solid #6f4e37;\n  font: normal large sans-serif; }\n\n.add .add-form label {\n  color: #6f4e37;\n  font: normal large impact; }\n\n.add .add-form .add-form-submit input {\n  padding: 0.5rem 1rem;\n  height: fit-content;\n  width: fit-content;\n  margin: auto;\n  border: none;\n  margin: auto;\n  width: auto;\n  background-color: #6f4e37;\n  color: white;\n  font: bold large Verdana, sans-serif; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/add-trip.scss"],"names":[],"mappings":"AAAA;EAGY,aAAa;EACb,sBAAsB;EACtB,iBAAiB,EAAA;;AAL7B;EASY,UAAU;EACV,WAAW;EACX,yBAAyB;EACzB,6BAA6B,EAAA;;AAZzC;EAgBY,cAAc;EACd,yBAAyB,EAAA;;AAjBrC;EAsBgB,oBAAoB;EACpB,mBAAkB;EAClB,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,WAAW;EACX,yBAAyB;EACzB,YAAY;EACZ,oCAAoC,EAAA","sourcesContent":[".add {\n    .add-form {\n        * {\n            display: flex;\n            flex-direction: column;\n            margin: 1rem auto;\n        }\n\n        input {\n            width: 80%;\n            height: 4em;\n            border: 2px solid #6f4e37;\n            font: normal large sans-serif;\n        }\n\n        label {\n            color: #6f4e37;\n            font: normal large impact;\n        }\n\n        .add-form-submit {\n            input {\n                padding:0.5rem 1rem ;\n                height:fit-content;\n                width: fit-content;\n                margin: auto;\n                border: none;\n                margin: auto;\n                width: auto;\n                background-color: #6f4e37;\n                color: white;\n                font: bold large Verdana, sans-serif;\n            }\n        }\n    }\n}\n\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/base.scss":
 /*!******************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/base.scss ***!
@@ -293,7 +318,32 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "body {\n  display: grid;\n  text-align: center;\n  grid-template-rows: 10vh 80vh 10vh;\n  grid-template-columns: 1fr;\n  grid-template-areas: \"header\" \"main\" \"footer\"; }\n  body * {\n    margin: 3rem auto;\n    width: 100%;\n    overflow: scroll; }\n  body header {\n    grid-area: header; }\n  body main {\n    grid-area: main;\n    max-height: 100%; }\n  body footer {\n    grid-area: footer; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/base.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,kBAAkB;EAClB,kCAAkC;EAClC,0BAA0B;EAC1B,6CAA6C,EAAA;EALjD;IAOQ,iBAAiB;IACjB,WAAW;IACX,gBAAgB,EAAA;EATxB;IAaQ,iBAAiB,EAAA;EAbzB;IAgBQ,eAAe;IACf,gBAAgB,EAAA;EAjBxB;IAoBQ,iBAAiB,EAAA","sourcesContent":["body {\n    display: grid;\n    text-align: center;\n    grid-template-rows: 10vh 80vh 10vh;\n    grid-template-columns: 1fr;\n    grid-template-areas: \"header\" \"main\" \"footer\";\n    * {\n        margin: 3rem auto;\n        width: 100%;\n        overflow: scroll;\n    }\n\n    header {\n        grid-area: header;\n    }\n    main {\n        grid-area: main;\n        max-height: 100%;\n    }\n    footer {\n        grid-area: footer;\n    }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "body {\n  display: grid;\n  text-align: center;\n  grid-template-rows: 10vh 90vh 10vh;\n  grid-template-areas: \"header\" \"main\" \"footer\"; }\n  body header {\n    grid-area: \"header\"; }\n  body main {\n    grid-area: \"main\";\n    width: 100%; }\n  body footer {\n    grid-area: \"footer\"; }\n  body .modal {\n    display: none;\n    position: fixed;\n    z-index: 1000;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    background: rgba(255, 255, 255, 0.8) no-repeat; }\n  body.loading .modal {\n    overflow: hidden;\n    display: block; }\n  body .noshow {\n    display: none; }\n  body button {\n    display: inline;\n    border: none;\n    margin: 0;\n    padding: 0;\n    width: 4rem;\n    overflow: visible;\n    background: transparent;\n    color: inherit;\n    font: inherit;\n    line-height: normal; }\n\n@media (min-width: 768px) {\n  body {\n    grid-template-rows: 10vh 80vh 10vh;\n    grid-template-areas: \"header\" \"main\" \"footer\"; } }\n", "",{"version":3,"sources":["webpack://./src/client/styles/base.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,kBAAkB;EAClB,kCAAkC;EAClC,6CAA6C,EAAA;EAJjD;IAMQ,mBAAmB,EAAA;EAN3B;IASQ,iBAAiB;IACjB,WAAW,EAAA;EAVnB;IAaQ,mBAAmB,EAAA;EAb3B;IAiBQ,aAAa;IACb,eAAe;IACf,aAAa;IACb,MAAM;IACN,OAAO;IACP,YAAY;IACZ,WAAW;IACX,8CAA8C,EAAA;EAxBtD;IA4BQ,gBAAgB;IAChB,cAAc,EAAA;EA7BtB;IAgCQ,aAAa,EAAA;EAhCrB;IAoCQ,eAAe;IACf,YAAY;IACZ,SAAS;IACT,UAAU;IACV,WAAW;IACX,iBAAiB;IAEjB,uBAAuB;IAEvB,cAAc;IACd,aAAa;IAEb,mBAAmB,EAAA;;AAI3B;EACI;IACI,kCAAkC;IAClC,6CAA6C,EAAA,EAChD","sourcesContent":["body {\n    display: grid;\n    text-align: center;\n    grid-template-rows: 10vh 90vh 10vh;\n    grid-template-areas: \"header\" \"main\" \"footer\";\n    header {\n        grid-area: \"header\";\n    }\n    main {\n        grid-area: \"main\";\n        width: 100%;\n    }\n    footer {\n        grid-area: \"footer\";\n    }\n\n    .modal {\n        display: none;\n        position: fixed;\n        z-index: 1000;\n        top: 0;\n        left: 0;\n        height: 100%;\n        width: 100%;\n        background: rgba(255, 255, 255, 0.8) no-repeat;\n    }\n\n    &.loading .modal {\n        overflow: hidden;\n        display: block;\n    }\n    .noshow {\n        display: none;\n    }\n\n    button {\n        display: inline;\n        border: none;\n        margin: 0;\n        padding: 0;\n        width: 4rem;\n        overflow: visible;\n\n        background: transparent;\n\n        color: inherit;\n        font: inherit;\n\n        line-height: normal;\n    }\n}\n\n@media (min-width: 768px) {\n    body {\n        grid-template-rows: 10vh 80vh 10vh;\n        grid-template-areas: \"header\" \"main\" \"footer\";\n    }\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/edit-trip.scss":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/edit-trip.scss ***!
+  \***********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".edit {\n  display: flex;\n  flex-direction: column;\n  justify-content: center; }\n  .edit * {\n    margin-bottom: 1rem;\n    line-height: 50%; }\n  .edit .trip-thumbnail img {\n    width: 100%; }\n  .edit .trip-title {\n    color: #351a0e;\n    font: normal large impact; }\n  .edit .trip-actions {\n    color: #bc9158;\n    font: 100 normal Verdana, sans-serif;\n    display: flex;\n    flex-direction: row;\n    justify-content: space-evenly; }\n    .edit .trip-actions button {\n      width: fit-content; }\n  .edit .trip-info {\n    color: #6f4e37;\n    text-align: left; }\n    .edit .trip-info .trip-info-weather {\n      display: block; }\n      .edit .trip-info .trip-info-weather img {\n        display: inline;\n        vertical-align: middle;\n        width: 1.5rem;\n        height: 1.5rem; }\n  .edit .trip-notes {\n    display: flex;\n    flex-direction: column; }\n    .edit .trip-notes textarea {\n      height: 3rem;\n      width: 80%;\n      margin: auto; }\n\n@media (min-width: 768px) {\n  .edit {\n    width: 80;\n    height: 100%;\n    display: grid;\n    grid-template-rows: 50vh 50vh;\n    grid-template-columns: 50vw 50vw;\n    grid-template-areas: \"thumbnail summary\" \"notes notes\"; }\n    .edit .trip-thumbnail {\n      grid-area: thumbnail;\n      margin: 2rem;\n      height: 80%;\n      width: 80%;\n      margin: 2rem 0; }\n    .edit .trip-summary {\n      margin: 2rem;\n      grid-area: summary;\n      display: flex;\n      flex-direction: column;\n      justify-content: right;\n      align-items: left;\n      text-align: left; }\n      .edit .trip-summary .trip-title {\n        margin: 1vw;\n        font-size: 3vw; }\n      .edit .trip-summary .trip-actions {\n        margin: 1vw;\n        font-size: 2vw; }\n      .edit .trip-summary .trip-info {\n        margin: 1vw;\n        font-size: 2vw;\n        height: fit-content; }\n        .edit .trip-summary .trip-info .trip-info-weather p {\n          padding-left: 0;\n          margin-left: 0; }\n    .edit .trip-notes {\n      grid-area: notes; }\n      .edit .trip-notes textarea {\n        height: 6vw;\n        font-size: 2vw; } }\n", "",{"version":3,"sources":["webpack://./src/client/styles/edit-trip.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,sBAAsB;EACtB,uBAAuB,EAAA;EAH3B;IAMQ,mBAAmB;IACnB,gBAAgB,EAAA;EAPxB;IAWY,WAAW,EAAA;EAXvB;IAgBQ,cAAc;IACd,yBAAyB,EAAA;EAjBjC;IAqBQ,cAAc;IACd,oCAAoC;IACpC,aAAa;IACb,mBAAmB;IACnB,6BAA6B,EAAA;IAzBrC;MA2BY,kBAAkB,EAAA;EA3B9B;IAgCQ,cAAc;IACd,gBAAgB,EAAA;IAjCxB;MAmCY,cAAc,EAAA;MAnC1B;QAqCgB,eAAe;QACf,sBAAsB;QACtB,aAAa;QACb,cAAc,EAAA;EAxC9B;IA8CQ,aAAa;IACb,sBAAsB,EAAA;IA/C9B;MAiDY,YAAY;MACZ,UAAU;MACV,YAAY,EAAA;;AAKxB;EACI;IACI,SAAS;IACT,YAAY;IACZ,aAAa;IACb,6BAA6B;IAC7B,gCAAgC;IAChC,sDAEiB,EAAA;IARrB;MAWQ,oBAAoB;MACpB,YAAY;MACZ,WAAW;MACX,UAAU;MACV,cAAc,EAAA;IAftB;MAkBQ,YAAY;MACZ,kBAAkB;MAClB,aAAa;MACb,sBAAsB;MACtB,sBAAsB;MACtB,iBAAiB;MACjB,gBAAgB,EAAA;MAxBxB;QA0BY,WAAW;QACX,cAAc,EAAA;MA3B1B;QA8BY,WAAW;QACX,cAAc,EAAA;MA/B1B;QAkCY,WAAW;QACX,cAAc;QACd,mBAAmB,EAAA;QApC/B;UAsCgB,eAAe;UACf,cAAc,EAAA;IAvC9B;MA4CQ,gBAAgB,EAAA;MA5CxB;QA8CY,WAAW;QACX,cAAc,EAAA,EACjB","sourcesContent":[".edit {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n\n    * {\n        margin-bottom: 1rem;\n        line-height: 50%;\n    }\n    .trip-thumbnail {\n        img {\n            width: 100%;\n        }\n    }\n\n    .trip-title {\n        color: #351a0e;\n        font: normal large impact;\n    }\n\n    .trip-actions {\n        color: #bc9158;\n        font: 100 normal Verdana, sans-serif;\n        display: flex;\n        flex-direction: row;\n        justify-content: space-evenly;\n        button {\n            width: fit-content;\n        }\n    }\n\n    .trip-info {\n        color: #6f4e37;\n        text-align: left;\n        .trip-info-weather {\n            display: block;\n            img {\n                display: inline;\n                vertical-align: middle;\n                width: 1.5rem;\n                height: 1.5rem;\n            }\n        }\n    }\n\n    .trip-notes {\n        display: flex;\n        flex-direction: column;\n        textarea {\n            height: 3rem;\n            width: 80%;\n            margin: auto;\n        }\n    }\n}\n\n@media (min-width: 768px) {\n    .edit {\n        width: 80;\n        height: 100%;\n        display: grid;\n        grid-template-rows: 50vh 50vh;\n        grid-template-columns: 50vw 50vw;\n        grid-template-areas:\n            \"thumbnail summary\"\n            \"notes notes\";\n\n        .trip-thumbnail {\n            grid-area: thumbnail;\n            margin: 2rem;\n            height: 80%;\n            width: 80%;\n            margin: 2rem 0;\n        }\n        .trip-summary {\n            margin: 2rem;\n            grid-area: summary;\n            display: flex;\n            flex-direction: column;\n            justify-content: right;\n            align-items: left;\n            text-align: left;\n            .trip-title {\n                margin: 1vw;\n                font-size: 3vw;\n            }\n            .trip-actions {\n                margin: 1vw;\n                font-size: 2vw;\n            }\n            .trip-info {\n                margin: 1vw;\n                font-size: 2vw;\n                height: fit-content;\n                .trip-info-weather p {\n                    padding-left: 0;\n                    margin-left: 0;\n                }\n            }\n        }\n        .trip-notes {\n            grid-area: notes;\n            textarea {\n                height: 6vw;\n                font-size: 2vw;\n            }\n        }\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -318,7 +368,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "footer {\n  display: flex;\n  flex-direction: row; }\n  footer button {\n    display: inline-block;\n    width: 40vw;\n    margin: auto; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/footer.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,mBAAmB,EAAA;EAFvB;IAIQ,qBAAqB;IACrB,WAAU;IACV,YAAW,EAAA","sourcesContent":["footer {\n    display: flex;\n    flex-direction: row;\n    button {\n        display: inline-block;\n        width:40vw;\n        margin:auto;\n\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "footer {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: center; }\n  footer button {\n    display: inline-block;\n    width: 40vw;\n    margin: auto;\n    color: #bc9158;\n    font: 100 normal Verdana, sans-serif; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/footer.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,mBAAmB;EACnB,mBAAmB;EACnB,uBAAuB,EAAA;EAJ3B;IAMQ,qBAAqB;IACrB,WAAU;IACV,YAAW;IACX,cAAc;IACd,oCAAoC,EAAA","sourcesContent":["footer {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: center;\n    button {\n        display: inline-block;\n        width:40vw;\n        margin:auto;\n        color: #bc9158;\n        font: 100 normal Verdana, sans-serif;\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -343,32 +393,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "header h1 {\n  font: 2.4rem serif; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/header.scss"],"names":[],"mappings":"AAAA;EAEQ,kBAAkB,EAAA","sourcesContent":["header {\n    h1 {\n        font: 2.4rem serif;\n    }\n}"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/main.scss":
-/*!******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/main.scss ***!
-  \******************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
-// Module
-___CSS_LOADER_EXPORT___.push([module.i, "main {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column; }\n  main .trips {\n    display: none; }\n    main .trips .trip {\n      display: grid;\n      grid-template-rows: repeat(2, 1fr);\n      grid-template-columns: repeat(2, 1fr);\n      grid-template-areas: \"thumbnail summary\" \"action info\"; }\n      main .trips .trip .trip-thumbnail {\n        grid-area: \"thumbnail\"; }\n      main .trips .trip .trip-action {\n        grid-area: \"action\"; }\n      main .trips .trip .trip-title {\n        grid-area: \"summary\"; }\n      main .trips .trip .trip-info {\n        grid-area: \"info\"; }\n  main .add .add-form input {\n    width: 80%; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/main.scss","webpack://./src/client/styles/mixin.scss"],"names":[],"mappings":"AACA;ECAI,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,sBDD2B,EAAA;EAF/B;IAKQ,aAAa,EAAA;IALrB;MAOY,aAAa;MACb,kCAAkC;MAClC,qCAAqC;MACrC,sDAEiB,EAAA;MAZ7B;QAegB,sBAAsB,EAAA;MAftC;QAkBgB,mBAAmB,EAAA;MAlBnC;QAqBgB,oBAAoB,EAAA;MArBpC;QAwBgB,iBAAiB,EAAA;EAxBjC;IA+BgB,UAAS,EAAA","sourcesContent":["@import 'mixin';\nmain {\n\n    @include flex-center(column);\n    \n    .trips {\n        display: none;\n        .trip {\n            display: grid;\n            grid-template-rows: repeat(2, 1fr);\n            grid-template-columns: repeat(2, 1fr);\n            grid-template-areas:\n                \"thumbnail summary\"\n                \"action info\";\n\n            .trip-thumbnail {\n                grid-area: \"thumbnail\";\n            }\n            .trip-action {\n                grid-area: \"action\";\n            }\n            .trip-title {\n                grid-area: \"summary\";\n            }\n            .trip-info {\n                grid-area: \"info\";\n            }\n        }\n    }\n    .add {\n        .add-form {\n            input {\n                width:80%;\n            }\n        }\n        \n    }\n\n}\n","@mixin flex-center($direction) {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-direction: $direction;\n  }"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "header h1 {\n  margin: 2rem auto;\n  font: 100 2rem Verdana,sans-serif; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/header.scss"],"names":[],"mappings":"AAAA;EAGQ,iBAAiB;EACjB,iCAAiC,EAAA","sourcesContent":["header {\n\n    h1 {\n        margin: 2rem auto;\n        font: 100 2rem Verdana,sans-serif;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -393,7 +418,32 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n* {\n  box-sizing: border-box; }\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nul {\n  list-style-type: none; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/resets.scss"],"names":[],"mappings":"AAAA;;;CAGC;AAED;EACI,sBAAsB,EAAA;;AAG1B;;;;;;;;;;;;;EAaC,SAAS;EACT,UAAU;EACV,SAAS;EACT,eAAe;EACf,aAAa;EACb,wBAAwB,EAAA;;AAEzB,gDAAA;AACA;;EAEC,cAAc,EAAA;;AAEf;EACC,cAAc,EAAA;;AAEf;EACC,gBAAgB,EAAA;;AAEjB;EACC,YAAY,EAAA;;AAEb;;EAEC,WAAW;EACX,aAAa,EAAA;;AAEd;EACC,yBAAyB;EACzB,iBAAiB,EAAA;;AAElB;EACI,qBAAqB,EAAA","sourcesContent":["/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\n* {\n    box-sizing: border-box;\n}\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol, ul {\n\tlist-style: none;\n}\nblockquote, q {\n\tquotes: none;\n}\nblockquote:before, blockquote:after,\nq:before, q:after {\n\tcontent: '';\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\nul {\n    list-style-type: none;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n* {\n  box-sizing: border-box; }\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol,\nul {\n  list-style: none; }\n\nblockquote,\nq {\n  quotes: none; }\n\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n  content: \"\";\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nul {\n  list-style-type: none; }\n", "",{"version":3,"sources":["webpack://./src/client/styles/resets.scss"],"names":[],"mappings":"AAAA;;;CAGC;AAED;EACC,sBAAsB,EAAA;;AAGvB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAiFC,SAAS;EACT,UAAU;EACV,SAAS;EACT,eAAe;EACf,aAAa;EACb,wBAAwB,EAAA;;AAEzB,gDAAA;AACA;;;;;;;;;;;EAWC,cAAc,EAAA;;AAEf;EACC,cAAc,EAAA;;AAEf;;EAEC,gBAAgB,EAAA;;AAEjB;;EAEC,YAAY,EAAA;;AAEb;;;;EAIC,WAAW;EACX,aAAa,EAAA;;AAEd;EACC,yBAAyB;EACzB,iBAAiB,EAAA;;AAElB;EACC,qBAAqB,EAAA","sourcesContent":["/* http://meyerweb.com/eric/tools/css/reset/\n   v2.0 | 20110126\n   License: none (public domain)\n*/\n\n* {\n\tbox-sizing: border-box;\n}\n\nhtml,\nbody,\ndiv,\nspan,\napplet,\nobject,\niframe,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\np,\nblockquote,\npre,\na,\nabbr,\nacronym,\naddress,\nbig,\ncite,\ncode,\ndel,\ndfn,\nem,\nimg,\nins,\nkbd,\nq,\ns,\nsamp,\nsmall,\nstrike,\nstrong,\nsub,\nsup,\ntt,\nvar,\nb,\nu,\ni,\ncenter,\ndl,\ndt,\ndd,\nol,\nul,\nli,\nfieldset,\nform,\nlabel,\nlegend,\ntable,\ncaption,\ntbody,\ntfoot,\nthead,\ntr,\nth,\ntd,\narticle,\naside,\ncanvas,\ndetails,\nembed,\nfigure,\nfigcaption,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\noutput,\nruby,\nsection,\nsummary,\ntime,\nmark,\naudio,\nvideo {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tfont-size: 100%;\n\tfont: inherit;\n\tvertical-align: baseline;\n}\n/* HTML5 display-role reset for older browsers */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmenu,\nnav,\nsection {\n\tdisplay: block;\n}\nbody {\n\tline-height: 1;\n}\nol,\nul {\n\tlist-style: none;\n}\nblockquote,\nq {\n\tquotes: none;\n}\nblockquote:before,\nblockquote:after,\nq:before,\nq:after {\n\tcontent: \"\";\n\tcontent: none;\n}\ntable {\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}\nul {\n\tlist-style-type: none;\n}\n\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/trips-list.scss":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/trips-list.scss ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".trips {\n  width: 100%;\n  display: flex;\n  flex-direction: column; }\n  .trips p {\n    width: 80%;\n    margin: auto; }\n    .trips p button {\n      color: #bc9158;\n      font: 100 normal Verdana, sans-serif; }\n  .trips .trip {\n    border: 0.5rem solid #6f4e37;\n    margin: 1rem 0;\n    display: grid;\n    grid-template-columns: 50% 50%;\n    grid-template-rows: 50% 50%; }\n    .trips .trip .trip-thumbnail {\n      margin-right: 1rem;\n      grid-row-start: 1;\n      grid-row-end: 3;\n      grid-column-start: 1;\n      grid-column-end: 2;\n      text-align: right; }\n    .trips .trip .trip-info {\n      grid-row-start: 1;\n      grid-row-end: 2;\n      grid-column-start: 2;\n      grid-column-end: 3;\n      color: #6f4e37;\n      text-align: left; }\n      .trips .trip .trip-info img {\n        display: inline;\n        vertical-align: middle;\n        width: 1.5rem;\n        height: 1.5rem; }\n    .trips .trip .trip-actions {\n      grid-row-start: 2;\n      grid-row-end: 3;\n      grid-column-start: 2;\n      grid-column-end: 3;\n      color: #bc9158;\n      font: 100 normal Verdana, sans-serif;\n      width: fit-content;\n      display: flex;\n      flex-direction: row;\n      justify-content: space-evenly; }\n\n@media (min-width: 768px) {\n  .trips p {\n    width: 80%;\n    margin: auto; }\n    .trips p button {\n      font-size: bold; }\n  .trips .trip .trip-thumbnail {\n    width: 40vw; }\n  .trips .trip .trip-info {\n    font-size: bolder; }\n  .trips .trip .trip-actions {\n    font-size: bold; }\n  .trips .trip .trip-info {\n    font-size: bold; } }\n", "",{"version":3,"sources":["webpack://./src/client/styles/trips-list.scss"],"names":[],"mappings":"AAAA;EACI,WAAW;EACX,aAAa;EACb,sBAAsB,EAAA;EAH1B;IAMQ,UAAU;IACV,YAAY,EAAA;IAPpB;MASY,cAAc;MACd,oCAAoC,EAAA;EAVhD;IAeQ,4BAA4B;IAC5B,cAAc;IACd,aAAa;IACb,8BAA8B;IAC9B,2BAA2B,EAAA;IAnBnC;MAsBY,kBAAkB;MAClB,iBAAiB;MACjB,eAAe;MACf,oBAAoB;MACpB,kBAAkB;MAElB,iBAAiB,EAAA;IA5B7B;MA+BY,iBAAiB;MACjB,eAAe;MACf,oBAAoB;MACpB,kBAAkB;MAClB,cAAc;MACd,gBAAgB,EAAA;MApC5B;QAsCgB,eAAe;QACf,sBAAsB;QACtB,aAAa;QACb,cAAc,EAAA;IAzC9B;MA6CY,iBAAiB;MACjB,eAAe;MACf,oBAAoB;MACpB,kBAAkB;MAElB,cAAc;MACd,oCAAoC;MACpC,kBAAkB;MAClB,aAAa;MACb,mBAAmB;MACnB,6BAA6B,EAAA;;AAKzC;EACI;IAEQ,UAAU;IACV,YAAY,EAAA;IAHpB;MAKY,eAAe,EAAA;EAL3B;IAWY,WAAW,EAAA;EAXvB;IAcY,iBAAiB,EAAA;EAd7B;IAiBY,eAAe,EAAA;EAjB3B;IAoBY,eAAe,EAAA,EAClB","sourcesContent":[".trips {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n\n    p {\n        width: 80%;\n        margin: auto;\n        button {\n            color: #bc9158;\n            font: 100 normal Verdana, sans-serif;\n        }\n    }\n\n    .trip {\n        border: 0.5rem solid #6f4e37;\n        margin: 1rem 0;\n        display: grid;\n        grid-template-columns: 50% 50%;\n        grid-template-rows: 50% 50%;\n\n        .trip-thumbnail {\n            margin-right: 1rem;\n            grid-row-start: 1;\n            grid-row-end: 3;\n            grid-column-start: 1;\n            grid-column-end: 2;\n\n            text-align: right;\n        }\n        .trip-info {\n            grid-row-start: 1;\n            grid-row-end: 2;\n            grid-column-start: 2;\n            grid-column-end: 3;\n            color: #6f4e37;\n            text-align: left;\n            img {\n                display: inline;\n                vertical-align: middle;\n                width: 1.5rem;\n                height: 1.5rem;\n            }\n        }\n        .trip-actions {\n            grid-row-start: 2;\n            grid-row-end: 3;\n            grid-column-start: 2;\n            grid-column-end: 3;\n\n            color: #bc9158;\n            font: 100 normal Verdana, sans-serif;\n            width: fit-content;\n            display: flex;\n            flex-direction: row;\n            justify-content: space-evenly;\n        }\n    }\n}\n\n@media (min-width: 768px) {\n    .trips {\n        p {\n            width: 80%;\n            margin: auto;\n            button {\n                font-size: bold;\n            }\n        }\n\n        .trip {\n            .trip-thumbnail {\n                width: 40vw;\n            }\n            .trip-info {\n                font-size: bolder;\n            }\n            .trip-actions {\n                font-size: bold;\n            }\n            .trip-info {\n                font-size: bold;\n            }\n        }\n    }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -10549,19 +10599,43 @@ module.exports.formatError = function(err) {
 /*!*****************************!*\
   !*** ./src/client/index.js ***!
   \*****************************/
-/*! exports provided: handleForm */
+/*! exports provided: showLoading, unShowLoading, handleCheckTrip, handleSaveTrip, validateDate, renderAddTripView, renderEditTripView, renderTripListView, handleEditOnTripList, handleRemoveTrip */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _js_formHandler__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/formHandler */ "./src/client/js/formHandler.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleForm", function() { return _js_formHandler__WEBPACK_IMPORTED_MODULE_0__["handleForm"]; });
+/* harmony import */ var _js_tripCrud__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/tripCrud */ "./src/client/js/tripCrud.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "showLoading", function() { return _js_tripCrud__WEBPACK_IMPORTED_MODULE_0__["showLoading"]; });
 
-/* harmony import */ var _styles_base_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/base.scss */ "./src/client/styles/base.scss");
-/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/header.scss */ "./src/client/styles/header.scss");
-/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/main.scss */ "./src/client/styles/main.scss");
-/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/footer.scss */ "./src/client/styles/footer.scss");
-/* harmony import */ var _styles_resets_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/resets.scss */ "./src/client/styles/resets.scss");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unShowLoading", function() { return _js_tripCrud__WEBPACK_IMPORTED_MODULE_0__["unShowLoading"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleCheckTrip", function() { return _js_tripCrud__WEBPACK_IMPORTED_MODULE_0__["handleCheckTrip"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleSaveTrip", function() { return _js_tripCrud__WEBPACK_IMPORTED_MODULE_0__["handleSaveTrip"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "validateDate", function() { return _js_tripCrud__WEBPACK_IMPORTED_MODULE_0__["validateDate"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "renderAddTripView", function() { return _js_tripCrud__WEBPACK_IMPORTED_MODULE_0__["renderAddTripView"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "renderEditTripView", function() { return _js_tripCrud__WEBPACK_IMPORTED_MODULE_0__["renderEditTripView"]; });
+
+/* harmony import */ var _js_tripList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/tripList */ "./src/client/js/tripList.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "renderTripListView", function() { return _js_tripList__WEBPACK_IMPORTED_MODULE_1__["renderTripListView"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleEditOnTripList", function() { return _js_tripList__WEBPACK_IMPORTED_MODULE_1__["handleEditOnTripList"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "handleRemoveTrip", function() { return _js_tripList__WEBPACK_IMPORTED_MODULE_1__["handleRemoveTrip"]; });
+
+/* harmony import */ var _styles_resets_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/resets.scss */ "./src/client/styles/resets.scss");
+/* harmony import */ var _styles_base_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/base.scss */ "./src/client/styles/base.scss");
+/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/header.scss */ "./src/client/styles/header.scss");
+/* harmony import */ var _styles_add_trip_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/add-trip.scss */ "./src/client/styles/add-trip.scss");
+/* harmony import */ var _styles_edit_trip_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/edit-trip.scss */ "./src/client/styles/edit-trip.scss");
+/* harmony import */ var _styles_trips_list_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./styles/trips-list.scss */ "./src/client/styles/trips-list.scss");
+/* harmony import */ var _styles_footer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./styles/footer.scss */ "./src/client/styles/footer.scss");
+
+
+
 
 
 
@@ -10572,45 +10646,279 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/client/js/formHandler.js":
-/*!**************************************!*\
-  !*** ./src/client/js/formHandler.js ***!
-  \**************************************/
-/*! exports provided: handleForm */
+/***/ "./src/client/js/tripCrud.js":
+/*!***********************************!*\
+  !*** ./src/client/js/tripCrud.js ***!
+  \***********************************/
+/*! exports provided: handleSaveTrip, handleCheckTrip, renderAddTripView, renderEditTripView, validateDate, showLoading, unShowLoading */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleForm", function() { return handleForm; });
-const showLoading = () => {
-  console.log("submitting form to backend...");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleSaveTrip", function() { return handleSaveTrip; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleCheckTrip", function() { return handleCheckTrip; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderAddTripView", function() { return renderAddTripView; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderEditTripView", function() { return renderEditTripView; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "validateDate", function() { return validateDate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showLoading", function() { return showLoading; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unShowLoading", function() { return unShowLoading; });
+var getDateDiffFromToday = function getDateDiffFromToday(date) {
+  return (new Date(date).getTime() - new Date(new Date().toISOString().split("T")[0])) / (1000 * 60 * 60 * 24);
 };
 
-const renderResult = data => {
-  console.log(JSON.stringify(data));
+var showLoading = function showLoading() {
+  document.getElementsByTagName("body")[0].classList.add("loading");
 };
 
-const handleForm = e => {
-  e.preventDefault(); //get input 
+var unShowLoading = function unShowLoading() {
+  document.getElementsByTagName("body")[0].classList.remove("loading");
+};
 
-  let destination = document.getElementById("destination").value;
-  let date = document.getElementById("departing-date").value; //validate
+var renderAddTripView = function renderAddTripView() {
+  var addTripView = "\n    <section class=\"add\" id=\"add-trip\">\n    <form action=\"\" method=\"get\" class=\"add-form\" onsubmit=\"return Client.handleCheckTrip(event)\">\n    <div class=\"add-form-destination\">\n        <label for=\"destination\">My trip to:</label>\n        <input type=\"text\" name=\"destination\" id=\"destination\" placeholder=\"Enter Destination:\" requied />\n    </div>\n    <div class=\"add-form-date\">\n        <label for=\"departing-date\">Departing:</label>\n        <input type=\"date\" name=\"departing-date\" id=\"departing-date\" requied />\n    </div>\n    <div class=\"add-form-submit\">\n        <input type=\"submit\" value=\"Check\" />\n    </div>\n</form>\n</section>\n";
+  document.getElementById('container').innerHTML = addTripView; //add date limits
 
-  if (!destination) {
-    alert("Please input a destination!");
-    return;
-  }
+  var eleDate = document.getElementById("departing-date");
+  var minDate = new Date().toISOString().split("T")[0];
+  var maxDate = new Date(new Date().getTime() + 14 * 24 * 60 * 60 * 1000).toISOString().split("T")[0];
+  eleDate.setAttribute("max", maxDate);
+  eleDate.setAttribute("min", minDate);
+};
+
+var validateDate = function validateDate(date) {
+  var msg = '';
 
   if (!date) {
-    alert("Please input a date!");
-    return;
+    msg = "Please input a date";
+  } else if (date == 'Invalid Date' || !new RegExp(/\d{4}-\d{2}-\d{2}/).test(date)) {
+    msg = "Please input a valid date";
+  } else {
+    var diffInDays = getDateDiffFromToday(date);
+
+    if (diffInDays < 0) {
+      msg = "Please pick today or a future date";
+    }
+
+    if (diffInDays > 14) {
+      msg = "Please pick a date within 2 weeks";
+    }
   }
 
-  showLoading();
-  fetch(`http://localhost:8081/trip/check?destination=${destination}&date=${date}`).then(res => res.json()).then(data => renderResult(data));
+  return msg;
 };
 
+var renderEditTripView = function renderEditTripView(trip) {
+  var str = JSON.stringify(trip);
+  console.log("renderEditTripView".concat(str));
+  var editTripView = "\n    <section class=\"edit\" id=\"edit-trip\" data-id=".concat(trip.id, ">\n                <div class=\"trip-thumbnail\">\n                    <img src=\"").concat(trip.destination.thumbnailUrl, "\"></img>\n                </div>\n                <div class=\"trip-summary\">\n                <div class=\"trip-title\">\n                    <p>My Trip to: ").concat(trip.destination.name, ", ").concat(trip.destination.countryName, "</p>\n                    <p>Departing: ").concat(new Date(trip.date).toLocaleDateString(), "</p>\n                </div>\n\n                <div class=\"trip-actions\">\n                <button id='trip-btn-save' onclick=\"return Client.handleSaveTrip(event)\">save trip</button>\n                <button id='trip-btn-remove' onclick=\"return Client.handleRemoveTrip(").concat(trip.id, ")\">remove trip</button>\n                </div>\n\n                <div class=\"trip-info\">\n                    <div class=\"trip-info-weather\">\n                        <p>The trip is ").concat(getDateDiffFromToday(trip.date), " days away</p>\n                        <p>Typical weather of ").concat(trip.destination.name, " for then is:</p>\n                        <p>").concat(trip.weather.description, " High: ").concat(trip.weather.high_temp, "\u2103, low: ").concat(trip.weather.low_temp, "\u2103</p>\n                    </div>\n                </div>\n                </div>\n\n                <div class=\"trip-notes\" >\n                    <textarea id=\"trip-notes\" placeholder=\"add trip notes here...\">").concat(trip.notes, "</textarea>\n                </div>\n     </section>\n    ");
+  document.getElementById("container").innerHTML = editTripView;
+  unShowLoading();
+};
 
+var handleCheckTrip = function handleCheckTrip(e) {
+  e.preventDefault(); //get input 
+
+  var destination = document.getElementById("destination").value;
+  var date = document.getElementById("departing-date").value; //validate destination
+
+  if (!destination) {
+    alert("Please input a destination");
+    return;
+  } //validate date
+
+
+  var msg = validateDate(date);
+
+  if (msg && msg !== '') {
+    alert(msg);
+    return;
+  } //submit
+
+
+  console.log("submitting trip form");
+  showLoading();
+  var req = {
+    destination: destination,
+    date: date
+  };
+  fetch("http://localhost:8081/trips/new", {
+    method: 'POST',
+    credentials: 'same-origin',
+    // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(req)
+  }).then(function (res) {
+    return res.json();
+  }).then(function (trip) {
+    return renderEditTripView(trip);
+  })["catch"](function (error) {
+    console.log(error);
+    alert("failed to fetch trip info");
+    unShowLoading();
+  });
+};
+
+var handleSaveTrip = function handleSaveTrip(e) {
+  e.preventDefault(); //get input 
+
+  var id = document.getElementById("edit-trip").dataset.id;
+  var notes = document.getElementById("trip-notes").value;
+  var trip = {
+    id: id,
+    notes: notes
+  }; //submit
+
+  console.log("saving trip ".concat(id, "..."));
+  showLoading();
+  fetch("http://localhost:8081/trips/".concat(id), {
+    method: 'POST',
+    credentials: 'same-origin',
+    // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(trip)
+  }).then(function (res) {
+    return res.json();
+  }).then(function (trips) {
+    Client.renderTripListView();
+    unShowLoading();
+  })["catch"](function (error) {
+    console.log(error);
+    alert("failed to save trip");
+    unShowLoading();
+  });
+};
+document.addEventListener('DOMContentLoaded', renderAddTripView());
+
+
+/***/ }),
+
+/***/ "./src/client/js/tripList.js":
+/*!***********************************!*\
+  !*** ./src/client/js/tripList.js ***!
+  \***********************************/
+/*! exports provided: renderTripListView, handleEditOnTripList, handleRemoveTrip */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "renderTripListView", function() { return renderTripListView; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleEditOnTripList", function() { return handleEditOnTripList; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleRemoveTrip", function() { return handleRemoveTrip; });
+/* harmony import */ var _tripCrud__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./tripCrud */ "./src/client/js/tripCrud.js");
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+
+var renderTrip = function renderTrip(trip) {
+  return "\n    <div class=\"trip\">\n                <div class=\"trip-thumbnail\">\n                    <img src=\"".concat(trip.destination.thumbnailUrl, "\"></img>\n                </div>\n                <div class=\"trip-info\">\n                    <p>Trip to ").concat(trip.destination.name, "</p>\n                    <p>Departing:").concat(new Date(trip.date).toLocaleDateString(), "</p>\n                    <p><img src=\"https://www.weatherbit.io/static/img/icons/").concat(trip.weather.icon, ".png\"></img> ").concat(trip.weather.low_temp, "\u2103-").concat(trip.weather.high_temp, "\u2103</p>\n                </div>\n                <div class=\"trip-actions\">\n                    <button onclick=\"return Client.handleEditOnTripList(").concat(trip.id, ")\">edit</button>\n                    <button onclick=\"return Client.handleRemoveTrip(").concat(trip.id, ")\">remove</button>\n                </div>\n            </div>\n    ");
+};
+
+var renderTripListView = function renderTripListView() {
+  console.log("renderTripListView");
+  fetch('http://localhost:8081/trips/all').then(function (resp) {
+    return resp.json();
+  }).then(function (trips) {
+    var tripsHTML;
+    tripsHTML = trips.length == 0 ? "<p>You don't have any trip scheduled yet.</p>\n            <p>Go <button onclick=\"return Client.renderAddTripView()\">add one</button></p>" : trips.sort(function (a, b) {
+      return a.id < b.id;
+    }).map(function (trip) {
+      return renderTrip(trip);
+    }).join('');
+    var tripsSectionHTML = "<section class='trips'>".concat(tripsHTML, "</section>");
+    document.getElementById('container').innerHTML = tripsSectionHTML;
+  })["catch"](function (error) {
+    return console.log("failed to renderTripListView with error ".concat(error));
+  });
+};
+
+var getTripById = /*#__PURE__*/function () {
+  var _ref = _asyncToGenerator(function* (id) {
+    console.log("getTripById ".concat(id));
+    var res = yield fetch("http://localhost:8081/trips/".concat(id));
+    var trip = yield res.json();
+    return trip;
+  });
+
+  return function getTripById(_x) {
+    return _ref.apply(this, arguments);
+  };
+}();
+
+var deleteTripById = /*#__PURE__*/function () {
+  var _ref2 = _asyncToGenerator(function* (id) {
+    var res = yield fetch("http://localhost:8081/trips/".concat(id), {
+      method: 'DELETE'
+    });
+    var trips = yield res.json();
+    return trips;
+  });
+
+  return function deleteTripById(_x2) {
+    return _ref2.apply(this, arguments);
+  };
+}();
+
+var handleEditOnTripList = /*#__PURE__*/function () {
+  var _ref3 = _asyncToGenerator(function* (tripId) {
+    console.log("handleEditOnTripList" + tripId);
+    var trip = yield getTripById(tripId);
+    Client.renderEditTripView(trip);
+  });
+
+  return function handleEditOnTripList(_x3) {
+    return _ref3.apply(this, arguments);
+  };
+}();
+
+var handleRemoveTrip = /*#__PURE__*/function () {
+  var _ref4 = _asyncToGenerator(function* (tripId) {
+    console.log("deleting trip ".concat(tripId));
+    Object(_tripCrud__WEBPACK_IMPORTED_MODULE_0__["showLoading"])();
+    var trips = yield deleteTripById(tripId);
+    renderTripListView(trips);
+    Object(_tripCrud__WEBPACK_IMPORTED_MODULE_0__["unShowLoading"])();
+  });
+
+  return function handleRemoveTrip(_x4) {
+    return _ref4.apply(this, arguments);
+  };
+}();
+
+
+
+/***/ }),
+
+/***/ "./src/client/styles/add-trip.scss":
+/*!*****************************************!*\
+  !*** ./src/client/styles/add-trip.scss ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_add_trip_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./add-trip.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/add-trip.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_add_trip_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_add_trip_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -10639,6 +10947,34 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_base_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./src/client/styles/edit-trip.scss":
+/*!******************************************!*\
+  !*** ./src/client/styles/edit-trip.scss ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_edit_trip_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./edit-trip.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/edit-trip.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_edit_trip_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_edit_trip_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -10698,34 +11034,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./src/client/styles/main.scss":
-/*!*************************************!*\
-  !*** ./src/client/styles/main.scss ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./main.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/main.scss");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
 /***/ "./src/client/styles/resets.scss":
 /*!***************************************!*\
   !*** ./src/client/styles/resets.scss ***!
@@ -10751,6 +11059,34 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
 /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_resets_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./src/client/styles/trips-list.scss":
+/*!*******************************************!*\
+  !*** ./src/client/styles/trips-list.scss ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_trips_list_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./trips-list.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/client/styles/trips-list.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_trips_list_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_trips_list_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 

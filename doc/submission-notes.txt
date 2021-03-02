@@ -1,0 +1,1 @@
+1. It's a bit weird to not let the user plan a travel further than 2 weeks, but I implemented this requirement, although technically I think the design should be showing that weather info can't be pulled for a date too distance on travel info part.

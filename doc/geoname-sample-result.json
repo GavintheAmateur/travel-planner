@@ -1,0 +1,2002 @@
+{
+    "totalResultsCount": 155,
+    "geonames": [
+        {
+            "adminCode1": "32",
+            "lng": "104.06667",
+            "geonameId": 1815286,
+            "toponymName": "Chengdu",
+            "countryId": "1814991",
+            "fcl": "P",
+            "population": 7415590,
+            "countryCode": "CN",
+            "name": "Chengdu",
+            "fclName": "city, village,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "seat of a first-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.66667",
+            "fcode": "PPLA"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.94709",
+            "geonameId": 6301392,
+            "toponymName": "Chengdu Shuangliu International Airport",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Shuangliu International Airport",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "airport",
+            "adminName1": "Sichuan",
+            "lat": "30.57853",
+            "fcode": "AIRP"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.87055",
+            "geonameId": 1815285,
+            "toponymName": "Chengdu Shi",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Shi",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "second-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.75982",
+            "fcode": "ADM2"
+        },
+        {
+            "adminCode1": "03",
+            "lng": "115.34289",
+            "geonameId": 7472191,
+            "toponymName": "Chengdu",
+            "countryId": "1814991",
+            "fcl": "P",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu",
+            "fclName": "city, village,...",
+            "adminCodes1": {
+                "ISO3166_2": "JX"
+            },
+            "countryName": "China",
+            "fcodeName": "populated place",
+            "adminName1": "Jiangxi",
+            "lat": "26.36828",
+            "fcode": "PPL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.445",
+            "geonameId": 12122632,
+            "toponymName": "Chengdu Tianfu International Airport",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Tianfu International Airport",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "airport",
+            "adminName1": "Sichuan",
+            "lat": "30.31767",
+            "fcode": "AIRP"
+        },
+        {
+            "adminCode1": "03",
+            "lng": "114.207",
+            "geonameId": 9614220,
+            "toponymName": "Chengdu",
+            "countryId": "1814991",
+            "fcl": "P",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu",
+            "fclName": "city, village,...",
+            "adminCodes1": {
+                "ISO3166_2": "JX"
+            },
+            "countryName": "China",
+            "fcodeName": "populated place",
+            "adminName1": "Jiangxi",
+            "lat": "26.983",
+            "fcode": "PPL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "107.439",
+            "geonameId": 10154883,
+            "toponymName": "Chengdu",
+            "countryId": "1814991",
+            "fcl": "P",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu",
+            "fclName": "city, village,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "populated place",
+            "adminName1": "Sichuan",
+            "lat": "31.1198",
+            "fcode": "PPL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "102.121",
+            "geonameId": 10198468,
+            "toponymName": "Chengdu",
+            "countryId": "1814991",
+            "fcl": "P",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu",
+            "fclName": "city, village,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "populated place",
+            "adminName1": "Sichuan",
+            "lat": "30.7673",
+            "fcode": "PPL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.85149",
+            "geonameId": 11493940,
+            "toponymName": "Chengdu Pengshan",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Pengshan",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "airport",
+            "adminName1": "Sichuan",
+            "lat": "30.26497",
+            "fcode": "AIRP"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.09281",
+            "geonameId": 11493941,
+            "toponymName": "Chengdu Feng Huang Shan",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Feng Huang Shan",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "airport",
+            "adminName1": "Sichuan",
+            "lat": "30.73049",
+            "fcode": "AIRP"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.4294",
+            "geonameId": 1813176,
+            "toponymName": "Dayi Xian",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Dayi Xian",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.62286",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.82125",
+            "geonameId": 1791482,
+            "toponymName": "Wenjiang Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 457070,
+            "countryCode": "CN",
+            "name": "Wenjiang Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.71634",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.01897",
+            "geonameId": 1794651,
+            "toponymName": "Shuangliu Xian",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 1158516,
+            "countryCode": "CN",
+            "name": "Shuangliu Xian",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.46108",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.81667",
+            "geonameId": 1788768,
+            "toponymName": "Xinjin Xian",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 302199,
+            "countryCode": "CN",
+            "name": "Xinjin Xian",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.44282",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.2523",
+            "geonameId": 1789091,
+            "toponymName": "Xindu Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 775703,
+            "countryCode": "CN",
+            "name": "Xindu Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.75325",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.62811",
+            "geonameId": 1809730,
+            "toponymName": "Dujiangyan Shi",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 657996,
+            "countryCode": "CN",
+            "name": "Dujiangyan Shi",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "31.02942",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.40815",
+            "geonameId": 1797540,
+            "toponymName": "Qionglai Shi",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 612753,
+            "countryCode": "CN",
+            "name": "Qionglai Shi",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.41667",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.48693",
+            "geonameId": 1798496,
+            "toponymName": "Pujiang Xian",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 239562,
+            "countryCode": "CN",
+            "name": "Pujiang Xian",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.24249",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.8817",
+            "geonameId": 1798596,
+            "toponymName": "Pi Xian",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 756047,
+            "countryCode": "CN",
+            "name": "Pi Xian",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.83432",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.92189",
+            "geonameId": 1798906,
+            "toponymName": "Pengzhou Shi",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 762887,
+            "countryCode": "CN",
+            "name": "Pengzhou Shi",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "31.11408",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.59546",
+            "geonameId": 1805352,
+            "toponymName": "Jintang Xian",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 717225,
+            "countryCode": "CN",
+            "name": "Jintang Xian",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.7454",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.00316",
+            "geonameId": 6642917,
+            "toponymName": "Wuhou Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 1083806,
+            "countryCode": "CN",
+            "name": "Wuhou Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.61096",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.04238",
+            "geonameId": 6642918,
+            "toponymName": "Jinniu Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 1200776,
+            "countryCode": "CN",
+            "name": "Jinniu Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.70575",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.03258",
+            "geonameId": 6642920,
+            "toponymName": "Qingyang Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 828140,
+            "countryCode": "CN",
+            "name": "Qingyang Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.65999",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.07997",
+            "geonameId": 6642922,
+            "toponymName": "Jinjiang Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 690422,
+            "countryCode": "CN",
+            "name": "Jinjiang Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.65835",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.1192",
+            "geonameId": 6642924,
+            "toponymName": "Chenghua Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 938785,
+            "countryCode": "CN",
+            "name": "Chenghua Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.66489",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.26956",
+            "geonameId": 6642925,
+            "toponymName": "Longquanyi Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 767203,
+            "countryCode": "CN",
+            "name": "Longquanyi Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.55048",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.26047",
+            "geonameId": 6642931,
+            "toponymName": "Qingbaijiang Qu",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 381792,
+            "countryCode": "CN",
+            "name": "Qingbaijiang Qu",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.87419",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "00",
+            "lng": "104.10374",
+            "geonameId": 6959007,
+            "toponymName": "Chengdu Dongwuyuan",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Dongwuyuan",
+            "fclName": "spot, building, farm",
+            "countryName": "China",
+            "fcodeName": "zoo",
+            "adminName1": "",
+            "lat": "30.71159",
+            "fcode": "ZOO"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.5637",
+            "geonameId": 1814903,
+            "toponymName": "Chongzhou Shi",
+            "countryId": "1814991",
+            "fcl": "A",
+            "population": 661120,
+            "countryCode": "CN",
+            "name": "Chongzhou Shi",
+            "fclName": "country, state, region,...",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "third-order administrative division",
+            "adminName1": "Sichuan",
+            "lat": "30.73303",
+            "fcode": "ADM3"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.46651",
+            "geonameId": 11493939,
+            "toponymName": "Chengdu Qionglai",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Qionglai",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "airfield",
+            "adminName1": "Sichuan",
+            "lat": "30.49262",
+            "fcode": "AIRF"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0657",
+            "geonameId": 12195568,
+            "toponymName": "Chengdu Railway Station",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Railway Station",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "railroad station",
+            "adminName1": "Sichuan",
+            "lat": "30.68982",
+            "fcode": "RSTN"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.43931",
+            "geonameId": 6869287,
+            "toponymName": "Chengdu Wufeng Gangguanchang Jintangxian Fenchang",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Wufeng Gangguanchang Jintangxian Fenchang",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "factory",
+            "adminName1": "Sichuan",
+            "lat": "30.78387",
+            "fcode": "MFG"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.06965",
+            "geonameId": 10169788,
+            "toponymName": "Tibet Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Tibet Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.68436",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0671",
+            "geonameId": 9953117,
+            "toponymName": "Kempinski Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Kempinski Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.61762",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.06385",
+            "geonameId": 10124975,
+            "toponymName": "Chengdu Master",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Master",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.61478",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6519434,
+            "toponymName": "River Bank Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "River Bank Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6519542,
+            "toponymName": "Minhang Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Minhang Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6519567,
+            "toponymName": "Chengdu Yadu Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Yadu Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6519908,
+            "toponymName": "Dacheng Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Dacheng Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6519930,
+            "toponymName": "Chengdu Newshulian Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Newshulian Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6519936,
+            "toponymName": "Chengdu Wangfujing Home Office",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Wangfujing Home Office",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6519969,
+            "toponymName": "Xiyu Business Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Xiyu Business Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6520453,
+            "toponymName": "Home Inn Chengdu Renmin Park",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Home Inn Chengdu Renmin Park",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6521451,
+            "toponymName": "Jinjiang Inn Chengdu Wenwu Road",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Jinjiang Inn Chengdu Wenwu Road",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6521700,
+            "toponymName": "Jinqilin Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Jinqilin Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6521781,
+            "toponymName": "America Garden Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "America Garden Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6521784,
+            "toponymName": "Peaceful Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Peaceful Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6521794,
+            "toponymName": "Chengdu Babao Grand Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Babao Grand Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6521795,
+            "toponymName": "Home Inn Chengdu Hongzhaobi",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Home Inn Chengdu Hongzhaobi",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6522069,
+            "toponymName": "Home Inn Chengdu Ruomashi",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Home Inn Chengdu Ruomashi",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6522108,
+            "toponymName": "Lutianhua Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Lutianhua Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6522368,
+            "toponymName": "The Pleasune Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "The Pleasune Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6522722,
+            "toponymName": "Shu Yun Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Shu Yun Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6522998,
+            "toponymName": "Jinhe Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Jinhe Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523159,
+            "toponymName": "Jinxin Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Jinxin Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523234,
+            "toponymName": "Angel Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Angel Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523276,
+            "toponymName": "Shudu Mansion Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Shudu Mansion Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523344,
+            "toponymName": "Fu De Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Fu De Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523434,
+            "toponymName": "Quanxing Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Quanxing Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523503,
+            "toponymName": "Leahouse Garden Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Leahouse Garden Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523660,
+            "toponymName": "Shu Lan Grand Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Shu Lan Grand Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523685,
+            "toponymName": "Ka Qiu Sha Grand Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Ka Qiu Sha Grand Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6523765,
+            "toponymName": "Himalayan Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Himalayan Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6518210,
+            "toponymName": "Picc Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Picc Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6518494,
+            "toponymName": "Mt Emei Int Grand Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Mt Emei Int Grand Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6518546,
+            "toponymName": "Brilliance Garden Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Brilliance Garden Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6518806,
+            "toponymName": "Boli Holiday Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Boli Holiday Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6491482,
+            "toponymName": "Xin Shu Lian Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Xin Shu Lian Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0812",
+            "geonameId": 6491550,
+            "toponymName": "Shangri-la hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Shangri-la hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6435",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0707",
+            "geonameId": 6466699,
+            "toponymName": "Sheraton Chengdu Lido Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Sheraton Chengdu Lido Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6694",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0666",
+            "geonameId": 6524998,
+            "toponymName": "Chengdu Jinjiang Generation Com",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Jinjiang Generation Com",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6666",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.071",
+            "geonameId": 6527392,
+            "toponymName": "Chengdu Xinglongyang Maruika",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Xinglongyang Maruika",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.67",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.94971",
+            "geonameId": 11493937,
+            "toponymName": "Chengdu Wenjian",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Wenjian",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "airbase",
+            "adminName1": "Sichuan",
+            "lat": "30.7033",
+            "fcode": "AIRB"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.01412",
+            "geonameId": 11493938,
+            "toponymName": "Chengdu Taipingsi",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Taipingsi",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "airbase",
+            "adminName1": "Sichuan",
+            "lat": "30.60186",
+            "fcode": "AIRB"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.06633",
+            "geonameId": 10169787,
+            "toponymName": "Sofitel Chengdu Taihe",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Sofitel Chengdu Taihe",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6496",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0777",
+            "geonameId": 10174302,
+            "toponymName": "Crowne Plaza Chengdu City Center",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Crowne Plaza Chengdu City Center",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.65962",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.88238",
+            "geonameId": 9953094,
+            "toponymName": "Wyndham Grand Plaza Royale Palace Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Wyndham Grand Plaza Royale Palace Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.80342",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.08696",
+            "geonameId": 9953096,
+            "toponymName": "Holiday Inn Chengdu Oriental Plaza",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Holiday Inn Chengdu Oriental Plaza",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.64887",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.04866",
+            "geonameId": 9953098,
+            "toponymName": "Millennium Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Millennium Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.6127",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.1488",
+            "geonameId": 9953101,
+            "toponymName": "Crowne Plaza Chengdu Panda Garden",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Crowne Plaza Chengdu Panda Garden",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.75356",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.07361",
+            "geonameId": 9953114,
+            "toponymName": "Holiday Inn Chengdu West Century City",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Holiday Inn Chengdu West Century City",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.55788",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0596",
+            "geonameId": 10302905,
+            "toponymName": "M Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "M Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.59891",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.06994",
+            "geonameId": 10303491,
+            "toponymName": "The Ritz Carlton Chengdu Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "The Ritz Carlton Chengdu Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.66391",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.07636",
+            "geonameId": 10229368,
+            "toponymName": "Ibis Chengdu Kehua",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Ibis Chengdu Kehua",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.61615",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.03267",
+            "geonameId": 10230131,
+            "toponymName": "Jinjiang Inn (Baiguolin Subway Station Chengdu)",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Jinjiang Inn (Baiguolin Subway Station Chengdu)",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.67543",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.05258",
+            "geonameId": 10230132,
+            "toponymName": "Jinjiang Inn (Jinxianqiao Road Chengdu)",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Jinjiang Inn (Jinxianqiao Road Chengdu)",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.67698",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.0844",
+            "geonameId": 10248497,
+            "toponymName": "Super 8 Hotel Chengdu Chun Xi",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Super 8 Hotel Chengdu Chun Xi",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.67092",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.07075",
+            "geonameId": 10290653,
+            "toponymName": "Jin Yuan Lou Hotel Chengdu",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Jin Yuan Lou Hotel Chengdu",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.66945",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.04023",
+            "geonameId": 10283839,
+            "toponymName": "Ramada Chengdu North",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Ramada Chengdu North",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.71766",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.05622",
+            "geonameId": 10284019,
+            "toponymName": "Chengdu Huaxi Angel Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Huaxi Angel Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.64008",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.07948",
+            "geonameId": 10284231,
+            "toponymName": "Ibis Chengdu Chunxi Road",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Ibis Chengdu Chunxi Road",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.66016",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "103.83304",
+            "geonameId": 10284627,
+            "toponymName": "Ibis Chengdu Wenjiang Floraland",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Ibis Chengdu Wenjiang Floraland",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.69188",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.04769",
+            "geonameId": 10284737,
+            "toponymName": "Chengdu Tianren Grand Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Tianren Grand Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.67765",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.04744",
+            "geonameId": 10284851,
+            "toponymName": "Chengdu Lingcai Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Lingcai Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.62618",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.09493",
+            "geonameId": 10285202,
+            "toponymName": "Motel 168 Chengdu Shuangqiao Road Inn",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Motel 168 Chengdu Shuangqiao Road Inn",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.65471",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.05236",
+            "geonameId": 10285277,
+            "toponymName": "Chengdu Tian Zhi Dao Hotel",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Chengdu Tian Zhi Dao Hotel",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.68053",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.07044",
+            "geonameId": 10285291,
+            "toponymName": "Jinjiang Inn Chengdu Wenshufang",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Jinjiang Inn Chengdu Wenshufang",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.67354",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.08161",
+            "geonameId": 10285415,
+            "toponymName": "Super 8 Hotel Chengdu Fu Kai",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Super 8 Hotel Chengdu Fu Kai",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.63055",
+            "fcode": "HTL"
+        },
+        {
+            "adminCode1": "32",
+            "lng": "104.07753",
+            "geonameId": 10124979,
+            "toponymName": "Crowne Plaza Chengdu City Centre",
+            "countryId": "1814991",
+            "fcl": "S",
+            "population": 0,
+            "countryCode": "CN",
+            "name": "Crowne Plaza Chengdu City Centre",
+            "fclName": "spot, building, farm",
+            "adminCodes1": {
+                "ISO3166_2": "SC"
+            },
+            "countryName": "China",
+            "fcodeName": "hotel",
+            "adminName1": "Sichuan",
+            "lat": "30.65876",
+            "fcode": "HTL"
+        }
+    ]
+}
