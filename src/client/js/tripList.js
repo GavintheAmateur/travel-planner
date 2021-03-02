@@ -1,5 +1,6 @@
 import { showLoading,unShowLoading } from "./tripCrud"
 
+//render a single trip card
 const renderTrip = trip =>
     `
     <div class="trip">
@@ -17,13 +18,14 @@ const renderTrip = trip =>
                 </div>
             </div>
     `
-
+//render the whole trips list page
 const renderTripListView = () => {
     console.log("renderTripListView")
     fetch('http://localhost:8081/trips/all')
         .then(resp => resp.json())
         .then(trips => {
             let tripsHTML
+            //if trips list is empty, remind user to add one.
             tripsHTML = trips.length==0?
             `<p>You don't have any trip scheduled yet.</p>
             <p>Go <button onclick="return Client.renderAddTripView()">add one</button></p>`:
@@ -52,12 +54,21 @@ const deleteTripById = async id => {
     return trips
 }
 
-
+/**
+ Get trip id of the trip from UI,  and then renders the edit page of that trip.
+ Seperate fetch data step from render UI step
+ */
 const handleEditOnTripList = async tripId => {
     console.log("handleEditOnTripList"+tripId)
+    //request trip info
     let trip = await getTripById(tripId)
+    //render UI
     Client.renderEditTripView(trip)
 }
+/**
+ Get trip id of the trip from UI, remove that trip in backend, and then redirect the user to updated trip list.
+ Seperate fetch data step from render UI step
+ */
 const handleRemoveTrip = async tripId => {
     console.log(`deleting trip ${tripId}`)
     showLoading()

@@ -1,39 +1,19 @@
-const getDateDiffFromToday = date => (new Date(date).getTime() - new Date(new Date().toISOString().split("T")[0])) / (1000 * 60 * 60 * 24)
-const showLoading = () => {
-    document.getElementsByTagName("body")[0].classList.add("loading")
-}
-const unShowLoading = () => {
-    document.getElementsByTagName("body")[0].classList.remove("loading")
-}
+//start helper functions
 
-const renderAddTripView = () => {
-    let addTripView = `
-    <section class="add" id="add-trip">
-    <form action="" method="get" class="add-form" onsubmit="return Client.handleCheckTrip(event)">
-    <div class="add-form-destination">
-        <label for="destination">My trip to:</label>
-        <input type="text" name="destination" id="destination" placeholder="Enter Destination:" requied />
-    </div>
-    <div class="add-form-date">
-        <label for="departing-date">Departing:</label>
-        <input type="date" name="departing-date" id="departing-date" requied />
-    </div>
-    <div class="add-form-submit">
-        <input type="submit" value="Check" />
-    </div>
-</form>
-</section>
-`
-    document.getElementById('container').innerHTML = addTripView
-    //add date limits
-    let eleDate = document.getElementById("departing-date")
-    let minDate = new Date().toISOString().split("T")[0]
-    let maxDate = new Date(new Date().getTime() + 14 * 24 * 60 * 60 * 1000).toISOString().split("T")[0]
-    eleDate.setAttribute("max", maxDate)
-    eleDate.setAttribute("min", minDate)
+/**
+ * Returns the number of date difference between now and input date, time of the day doesn't matter.
+ * @param {date} x A date in iso format: e.g. 2021-03-03.
+ */
+const getDateDiffFromToday = date => {
+
+    return (new Date(date).getTime() - new Date(new Date().toISOString().split("T")[0])) / (1000 * 60 * 60 * 24)
 }
 
 
+/**
+ * Returns if a date string is valid or not in boolean.
+ * @param {date} x A date in iso format: e.g. 2021-03-03.
+ */
 const validateDate = date => {
     let msg = ''
     if (!date) {
@@ -53,6 +33,46 @@ const validateDate = date => {
     return msg
 }
 
+
+
+const showLoading = () => {
+    document.getElementsByTagName("body")[0].classList.add("loading")
+}
+const unShowLoading = () => {
+    document.getElementsByTagName("body")[0].classList.remove("loading")
+}
+//end helper functions
+
+const renderAddTripView = () => {
+    let addTripView = `
+    <section class="add" id="add-trip">
+    <form action="" method="get" class="add-form" onsubmit="return Client.handleCheckTrip(event)">
+    <div class="add-form-destination">
+        <label for="destination">My trip to:</label>
+        <input type="text" name="destination" id="destination" placeholder="Enter Destination:" requied />
+    </div>
+    <div class="add-form-date">
+        <label for="departing-date">Departing:</label>
+        <input type="date" name="departing-date" id="departing-date" requied />
+    </div>
+    <div class="add-form-submit">
+        <input type="submit" value="Check" />
+    </div>
+</form>
+</section>
+`
+    let eleMain = document.getElementById('container')
+    if (eleMain) {
+        eleMain.innerHTML = addTripView
+        //add date limits
+        let eleDate = document.getElementById("departing-date")
+        let minDate = new Date().toISOString().split("T")[0]
+        let maxDate = new Date(new Date().getTime() + 14 * 24 * 60 * 60 * 1000).toISOString().split("T")[0]
+        eleDate.setAttribute("max", maxDate)
+        eleDate.setAttribute("min", minDate)
+    }
+
+}
 
 const renderEditTripView = trip => {
     let str = JSON.stringify(trip)
@@ -135,7 +155,7 @@ const handleCheckTrip = e => {
         })
 }
 
-export const handleSaveTrip = e => {
+const handleSaveTrip = e => {
     e.preventDefault()
     //get input 
     let id = document.getElementById("edit-trip").dataset.id
@@ -168,6 +188,6 @@ export const handleSaveTrip = e => {
             unShowLoading()
         })
 }
-
 document.addEventListener('DOMContentLoaded', renderAddTripView())
-export { handleCheckTrip, renderAddTripView, renderEditTripView, validateDate,showLoading,unShowLoading }
+export { handleCheckTrip, renderAddTripView, validateDate, renderEditTripView, showLoading, unShowLoading }
+

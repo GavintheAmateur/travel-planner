@@ -1,7 +1,7 @@
-import {validateDate} from '../src/client/js/addTrip'
+import {validateDate} from '../src/client/js/tripCrud'
 
 describe(
-    "test suite for validateDate",
+    "test suite for tripCrud.js",
     ()=> {
         test("test today",
         ()=> {
